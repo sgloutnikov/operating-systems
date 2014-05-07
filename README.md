@@ -1,4 +1,4 @@
-CS149 - Operating Systems (Spring 2010)
+CS149 - OS (Spring 2010)
 ===========================
 
 
