@@ -1,4 +1,8 @@
-operating-systems
-=================
+CS149 - Operating Systems (Spring 2010)
+===========================
 
-CS149 - Operating Systems
+
+###Projects from CS149. Operating Systems class at SJSU.
+
+- BuddySystemMM - A buddy system memory allocation technique simulator.
+- ProcessSchedulingSimulator - CPU Scheduling Simulator.

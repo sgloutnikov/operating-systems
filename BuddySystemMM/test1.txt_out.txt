@@ -1,0 +1,47 @@
+Value of n = 4 (total number of pages: 16)
+oooo oooo oooo oooo 
+
+Event # 	 Allocate 	 Actual Allocation 	 Deallocate (Event #)
+1				1				1				---
+xooo oooo oooo oooo 
+2				1				1				---
+xxoo oooo oooo oooo 
+3				1				1				---
+xxxo oooo oooo oooo 
+4				1				1				---
+xxxx oooo oooo oooo 
+5				1				1				---
+xxxx xooo oooo oooo 
+6				1				1				---
+xxxx xxoo oooo oooo 
+7				1				1				---
+xxxx xxxo oooo oooo 
+8				1				1				---
+xxxx xxxx oooo oooo 
+9				---				---				1(6)
+xxxx xoxx oooo oooo 
+10				---				---				1(5)
+xxxx ooxx oooo oooo 
+11				7				8				---
+xxxx ooxx xxxx xxxx 
+12				2				2				---
+xxxx xxxx xxxx xxxx 
+13				---				---				1(4)
+xxxo xxxx xxxx xxxx 
+14				---				---				1(2)
+xoxo xxxx xxxx xxxx 
+15				---				---				1(3)
+xooo xxxx xxxx xxxx 
+16				---				---				1(1)
+oooo xxxx xxxx xxxx 
+17				4				4				---
+xxxx xxxx xxxx xxxx 
+18				8				8				---
++++ ALLOCATION FAILED! +++ 	 Not enough space for 8pages
+xxxx xxxx xxxx xxxx 
+19				4				4				---
++++ ALLOCATION FAILED! +++ 	 Not enough space for 4pages
+xxxx xxxx xxxx xxxx 
+20				1				1				---
++++ ALLOCATION FAILED! +++ 	 Not enough space for 1pages
+xxxx xxxx xxxx xxxx 
